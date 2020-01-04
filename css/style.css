@@ -1,0 +1,55 @@
+html, body, .box {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    display: flex;
+    flex-flow: column;
+}
+
+header {
+    margin-bottom: 1em;
+}
+
+section {
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-flow: column;
+}
+
+section iframe {
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+footer {
+    min-height: 1em;
+}
+
+/* small (phone) */
+@media screen and (min-width: 35.5em) {
+
+}
+
+/* medium (tablet) */
+@media screen and (min-width: 48em) {
+
+}
+
+/* large (desktop) */
+@media screen and (min-width: 64em) {
+
+}
+
+/* extra large (widescreen) */
+@media screen and (min-width: 80em) {
+
+}
