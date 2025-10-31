@@ -2,7 +2,7 @@
 
 Website for Type-Link-Model (TLM).
 
-Published by GitHub Pages at https://type.link.model.tools/.
+Published by GitHub Pages at https://typelinkmodel.github.io/.
 
 See https://github.com/typelinkmodel/tlm for source code.
 
