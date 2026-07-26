@@ -1,72 +1,67 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Type Link Model</title>
+    <title>Type Link Model — retired</title>
     <meta charset="utf-8">
-    <meta name="description" content="Homepage for the Type-Link-Model (TLM)">
+    <meta name="description" content="The Type-Link-Model (TLM) project is retired.">
     <meta name="author" content="Leo Simons">
-
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css"
-          integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47"
-          crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css"
-          integrity="sha384-e+NM0rMilIXo+lz6+dXhoHMjd2iTSxNsCHpqkvuSBsAhwMDRF/Wn2QRRNaLxTcN/"
-          crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css"
-          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-          crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 2rem 1rem;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #222;
+            background: #fafafa;
+        }
+        main {
+            max-width: 40rem;
+            margin: 0 auto;
+        }
+        h1 { font-size: 1.8rem; margin-bottom: 0.25rem; }
+        .lede { color: #555; margin-top: 0; }
+        a { color: #0645ad; }
+        footer { margin-top: 2.5rem; color: #888; font-size: 0.9rem; }
+    </style>
 </head>
 <body>
+<main>
+    <h1>Type-Link-Model (TLM) — retired</h1>
+    <p class="lede">This project is archived and no longer maintained.</p>
 
-<div class="box">
+    <p>
+        TLM was a solo, unfinished experiment in text-first
+        <a href="https://en.wikipedia.org/wiki/Object-role_modeling">fact-based
+        modelling</a>: describing a domain as elementary facts written as plain
+        sentences, then generating schemas, diagrams, docs and SQL from them.
+    </p>
 
-    <header>
-        <div class="pure-menu pure-menu-horizontal" style="background-color: black">
-            <a class="pure-menu-heading">Type-Link-Model (TLM)</a>
+    <p>
+        In 2026 the pragmatic landing spot for &ldquo;models as code&rdquo; is
+        <a href="https://linkml.io/">LinkML</a>, which is maintained and ships the
+        generation pipeline TLM only sketched. The reasoning &mdash; and the two
+        honest things you give up by moving from a fact-based tool to LinkML
+        &mdash; is written up here:
+    </p>
 
-            <ul class="pure-menu-list" style="float: right">
-                <li class="pure-menu-item"><a href="ns/" class="pure-menu-link">Namespaces</a></li>
-                <li class="pure-menu-item"><a href="https://github.com/typelinkmodel/tlm/" class="pure-menu-link"><i class="fa fa-github"></i> GitHub</a></li>
-            </ul>
-        </div>
-    </header>
+    <p>
+        &rarr; <a href="https://leosimons.com/2026/07/26/fact-based-modelling-and-linkml/">Fact-based
+        modelling and LinkML</a>
+    </p>
 
-    <section>
-        <div class="pure-g">
-            <div class="pure-u-1-24 pure-u-md-3-24 pure-u-lg-4-24 pure-u-xl-5-24">
-            </div>
-            <div class="pure-u-22-24 pure-u-md-18-24 pure-u-lg-16-24 pure-u-xl-14-24">
-                <h1>Type-Link-Model</h1>
-
-                <p>
-                    Type-Link-Model (TLM) is a simple modelling technique inspired by Object Role
-                    Modelling that is suitable for working with web APIs and the typical simple
-                    tree structures used in web documents.
-
-                    You can see an early version of the spec below, then look at the
-                    <a href="https://github.com/typelinkmodel/tlm/">code on github</a> for what is
-                    currently implemented.
-                </p>
-
-                <p>
-                    This is an <em>unfinished hobby project</em>. Use at your own risk.
-                </p>
-            </div>
-            <div class="pure-u-1-24 pure-u-md-3-24 pure-u-lg-4-24 pure-u-xl-5-24">
-            </div>
-        </div>
-
-        <iframe src="tlm.html">
-
-        </iframe>
-    </section>
+    <p>
+        The durable idea isn&rsquo;t &ldquo;use LinkML.&rdquo; It&rsquo;s to model
+        just the facts, and to find them by talking with domain experts &mdash;
+        using examples, natural language, and simple drawings. That outlives any
+        particular tool.
+    </p>
 
     <footer>
-
+        Source (archived, read-only):
+        <a href="https://github.com/typelinkmodel/tlm">github.com/typelinkmodel/tlm</a>
     </footer>
-
-</div>
+</main>
 </body>
 </html>
